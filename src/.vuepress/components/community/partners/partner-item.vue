@@ -1,10 +1,10 @@
 <template>
   <div class="partner">
-    <div class="logo">
+    <!-- <div class="logo">
       <a :href="partner.urlLink">
         <img :alt="`${partner.name}'s logo`" :src="logo" width="125" height="auto">
       </a>
-    </div>
+    </div> -->
     <div class="profile">
       <p class="description">{{ partner.description }}</p>
       <dl>

@@ -80,6 +80,7 @@ export default {
     },
 
     repoLink() {
+      return 'https://github.com'
       const { repo } = this.$site.themeConfig
       if (repo) {
         return /^https?:/.test(repo) ? repo : `https://github.com/${repo}`

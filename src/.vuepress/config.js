@@ -32,7 +32,7 @@ const sidebar = {
 }
 
 module.exports = {
-  title: 'Vue.js',
+  title: 'Pydc',
   description: 'Vue.js - The 渐进式 JavaScript 框架',
   locales: {
     '/': {
@@ -138,25 +138,6 @@ module.exports = {
                 link: '/community/team/'
               }
             ]
-          },
-          {
-            text: '官方项目',
-            items: [
-              {
-                text: 'Vue Router',
-                link: 'https://next.router.vuejs.org/'
-              }
-            ]
-          }
-        ]
-      },
-      {
-        text: '多语言',
-        link: '#',
-        items: [
-          {
-            text: 'English',
-            link: 'https://v3.vuejs.org'
           }
         ]
       }
