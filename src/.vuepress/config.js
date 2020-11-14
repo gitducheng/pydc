@@ -103,22 +103,6 @@ module.exports = {
           {
             text: '教程',
             link: '/guide/introduction'
-          },
-          {
-            text: 'v3 迁移指南',
-            link: '/guide/introduction'
-          },
-          {
-            text: '风格指南',
-            link: '/style-guide/'
-          },
-          {
-            text: 'Cookbook',
-            link: '/cookbook/'
-          },
-          {
-            text: '示例',
-            link: '/examples/markdown'
           }
         ]
       },
@@ -131,22 +115,7 @@ module.exports = {
         items: [
           {
             text: '社区',
-            ariaLabel: '社区菜单',
-            items: [
-              {
-                text: '团队',
-                link: '/community/team/'
-              }
-            ]
-          },
-          {
-            text: '官方项目',
-            items: [
-              {
-                text: 'Vue Router',
-                link: 'https://next.router.vuejs.org/'
-              }
-            ]
+            ariaLabel: '社区菜单'
           }
         ]
       },
@@ -170,7 +139,6 @@ module.exports = {
     sidebar: {
       collapsable: false,
       '/guide/': sidebar.guide,
-      '/community/': sidebar.guide,
       '/cookbook/': sidebar.cookbook,
       '/api/': sidebar.api,
       '/examples/': sidebar.examples

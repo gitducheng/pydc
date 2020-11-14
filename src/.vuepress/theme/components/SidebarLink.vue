@@ -20,17 +20,13 @@ export default {
         sidebarDepth
       }
     }) {
-    // use custom active class matching logic
-    // due to edge case of paths ending with / + hash
-    const selfActive = isActive($route, item.path)
-    // for sidebar: auto pages, a hash link should be active if one of its child
-    // matches
+    const selfActive = isActive($route, item.path || '')
     const active = item.type === 'auto'
       ? selfActive || item.children.some(c => isActive($route, item.basePath + '#' + c.slug))
       : selfActive
     const link = item.type === 'external'
       ? renderExternal(h, item.path, item.title || item.path)
-      : renderLink(h, item.path, item.title || item.path, active)
+      : renderLink(h, item.path || '/', item.title || item.path, active)
 
     const maxDepth = [
       $page.frontmatter.sidebarDepth,

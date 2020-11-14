@@ -36,7 +36,7 @@
           >
             <li
               v-for="childSubItem in subItem.items"
-              :key="childSubItem.link"
+              :key="childSubItem.link + '/key'"
               class="dropdown-subitem"
             >
               <NavLink

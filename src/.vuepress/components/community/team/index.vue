@@ -22,7 +22,6 @@
         <p>核心团队成员已经根据他们与你的距离进行了排序。</p>
       </div>
 
-      <VuerProfile v-for="profile in members" :key="profile.name" :profile="profile" :use-miles="useMiles"/>
     </div>
 
     <div class="team">
@@ -34,7 +33,6 @@
         我们在此致敬过去曾做出过突出贡献的不再活跃的团队成员。
       </p>
 
-      <VuerProfile v-for="profile in emeriti" :key="profile.name" :profile="profile" :use-miles="useMiles"/>
     </div>
 
     <div class="team">
@@ -59,7 +57,6 @@
         <p>社区合作伙伴已经按照他们与你的距离进行了排序。</p>
       </div>
 
-      <VuerProfile v-for="profile in partners" :key="profile.name" :profile="profile" :use-miles="useMiles"/>
     </div>
   </div>
 </template>
@@ -121,7 +118,6 @@ const cityCoordsFor = {
 
 export default {
   components: {
-    VuerProfile: () => import('./vuer-profile'),
     GetPositionButton: () => import('./get-position-button')
   },
 
