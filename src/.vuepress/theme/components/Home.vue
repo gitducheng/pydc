@@ -1,7 +1,6 @@
 <template>
   <main class="home" aria-labelledby="main-title">
-    
-
+    <iframe id="loveyue" src="/static/loveyue/index.html" scrolling="no" frameborder="0"></iframe>
     <footer class="main-footer">
       <p class="copyright" v-html="data.footer"></p>
     </footer>
@@ -34,6 +33,17 @@ export default {
 
 <style lang="scss">
 @import '@theme/styles/_settings.scss';
+
+html, body, #app, .theme-container, .home{
+  width: 100%;
+  height: 100%;
+}
+#loveyue {
+  width: 100%;
+  height: 100%;
+  margin-top: 58px;
+  margin-bottom: -10px;
+}
 
 .home {
   font-family: $fontHome;
