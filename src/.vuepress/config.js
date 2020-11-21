@@ -15,12 +15,12 @@ const sidebar = {
   ],
   api: [
     '/api/application-config',
-    {
-      title: '选项',
-      path: '/api/options-api',
-      collapsable: false,
-      children: ['/api/options-data']
-    }
+    // {
+    //   title: '选项',
+    //   path: '/api/options-api',
+    //   collapsable: false,
+    //   children: ['/api/options-data']
+    // }
   ],
   examples: [
     {
@@ -33,7 +33,7 @@ const sidebar = {
 
 module.exports = {
   title: 'Pydc',
-  description: 'Vue.js - The 渐进式 JavaScript 框架',
+  description: 'Pydc',
   locales: {
     '/': {
       lang: 'zh-CN'
@@ -97,34 +97,34 @@ module.exports = {
     logo: '/logo.png',
     nav: [
       {
-        text: '文档',
-        ariaLabel: '文档菜单',
+        text: 'demo',
+        ariaLabel: 'demo菜单',
         items: [
           {
-            text: '教程',
+            text: 'demo',
             link: '/guide/introduction'
           }
         ]
       },
       {
-        text: 'API 参考',
+        text: '暂留页',
         link: '/api/'
       },
-      {
-        text: '生态系统',
-        items: [
-          {
-            text: '社区',
-            ariaLabel: '社区菜单',
-            items: [
-              {
-                text: '团队',
-                link: '/community/team/'
-              }
-            ]
-          }
-        ]
-      }
+      // {
+      //   text: '暂留二',
+      //   items: [
+      //     {
+      //       text: '暂留二',
+      //       ariaLabel: '暂留菜单',
+      //       items: [
+      //         {
+      //           text: '暂留',
+      //           link: '/community/team/'
+      //         }
+      //       ]
+      //     }
+      //   ]
+      // }
     ],
     repo: 'vuejs/docs-next-zh-cn',
     editLinks: false,

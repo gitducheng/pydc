@@ -14,7 +14,8 @@
       target="_blank"
       rel="noopener noreferrer"
     >
-      {{ repoLabel }}
+      暂留
+      <!-- {{ repoLabel }} -->
       <OutboundLink />
     </a>
   </nav>

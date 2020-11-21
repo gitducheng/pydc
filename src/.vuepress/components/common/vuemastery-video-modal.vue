@@ -26,7 +26,6 @@
 </template>
 
 <script>
-const iframeHTML = '<iframe id="videoIframe" style="height: 100%; left: 0; position: absolute; top: 0; width: 100%;" src="//player.youku.com/embed/XMzMwMTYyODMyNA==?autoplay=true&client_id=37ae6144009e277d" frameborder="0" allowfullscreen></iframe>'
 
 export default {
   props: {
@@ -48,7 +47,6 @@ export default {
         event.stopPropagation()
         this.isOpen = true
         document.body.classList.toggle('stop-scroll')
-        videoSpace.innerHTML = iframeHTML
       })
 
       document.body.addEventListener('click', event => {
