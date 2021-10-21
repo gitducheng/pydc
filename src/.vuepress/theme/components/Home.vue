@@ -2,7 +2,7 @@
   <main class="home" aria-labelledby="main-title">
     <iframe id="loveyue" src="/static/loveyue/index.html" scrolling="no" frameborder="0"></iframe>
     <footer class="main-footer">
-      <p class="copyright" v-html="data.footer"></p>
+      <a href="https://beian.miit.gov.cn/" class="copyright" target="_blank">京ICP备2020037949号-1</a>
     </footer>
   </main>
 </template>

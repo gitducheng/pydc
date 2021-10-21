@@ -25,8 +25,9 @@ features:
       20kB min+gzip 运行大小<br>
       超快虚拟 DOM<br>
       最省心的优化
-footer: |
-  京ICP备2020037949号-1
+# footer:
+#   - text: 京ICP备2020037949号-1
+#     link: https://beian.miit.gov.cn/
 socialIcons:
   - type: GitHub
     link: https://github.com/vuejs/vue
